@@ -1,0 +1,8 @@
+SECRET_KEY="demo"
+SESSION_COOKIE_HTTPONLY = True
+SESSION_COOKIE_SAMESITE = "lax"
+
+
+# SQLite 配置
+SQLITE_DB_FILE = "adventurex.db"  # 数据库文件名
+SQLALCHEMY_DATABASE_URI = f"sqlite:///{SQLITE_DB_FILE}"
